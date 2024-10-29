@@ -1,0 +1,4 @@
+
+# update names set name= "kamel" where id=9;
+# INSERT INTO names (name, created_at, updated_at) VALUE ("Mounir Ben Ammar", NOW(), NOW()), ("Ahmed", NOW(), NOW());
+select * from names;
