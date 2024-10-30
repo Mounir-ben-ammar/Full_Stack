@@ -1,0 +1,35 @@
+INSERT INTO users (first_name, last_name, email) 
+VALUES('mounir', 'ben ammar','benammar@gmail.com'), ('ahmed', 'ben salah','ahmed@gmail.com'),('kamel', 'ben amor','kamel@gmail.com');
+
+select  * from users;
+
+
+select * from users
+where email = 'benammar@gmail.com';
+
+select * from users
+where email = 'benammar@gmail.com';
+
+select * from users
+where id = 3;
+
+UPDATE users
+SET last_name = "Pancakes"
+WHERE  id = 3;
+
+DELETE FROM users WHERE id = 2;
+
+
+select * from users
+ORDER BY first_name ;
+
+
+select * from users
+ORDER BY first_name desc;
+
+
+
+
+
+
+
